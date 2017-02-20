@@ -9,5 +9,5 @@ Key Maker solves very particular problem:
 
 To install:
 ```
-$ npm install key-Maker
+$ npm install key-maker
 ```
