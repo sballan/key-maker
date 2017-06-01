@@ -1,16 +1,15 @@
 {
   "name": "key-maker",
   "version": "1.0.8",
-  "description": "",
-  "main": "dist.js",
-  "scripts": {
-    "browserify": "browserify ./index.js -o --standalone KeyMaker > ./dist.js"
-  },
-  "types": "./index.d.ts",
+  "description": "Deterministic hashes from JavaScript objects in the browser",
+  "main": "index.js",
   "author": "Samuel Ballan <sgb4622@gmail.com>",
+	"scripts": {
+		"bundle": "browserify ./index.js -o --standalone KeyMaker > ./dist.js"
+	},
   "license": "ISC",
   "dependencies": {
-    "aguid": "^2.0.0",
-    "fast-stable-stringify": "^0.1.1"
+    "fast-stable-stringify": "^0.2.0",
+    "rusha": "0.8.6"
   }
 }

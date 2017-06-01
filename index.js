@@ -1,13 +1,14 @@
-const aguid = require('aguid');
+const Rusha = require('rusha');
 const stringify = require('fast-stable-stringify');
 
-module.exports = {
-		run: function run(value) {
-		if (typeof value !== 'string') {
-			value = stringify(value);
-		}
-		return aguid(value);
+const rusha = new Rusha();
+
+module.exports = function (value) {
+	if (typeof value !== 'string') {
+		value = stringify(value);
 	}
+	return rusha.digest(value);
 }
+
 
 

@@ -2,23 +2,10 @@
 # yarn lockfile v1
 
 
-aguid@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/aguid/-/aguid-2.0.0.tgz#64bc264870dedf0eb9c72bddb53e5b30d32bc229"
-  dependencies:
-    uuid "^3.0.1"
+fast-stable-stringify@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/fast-stable-stringify/-/fast-stable-stringify-0.2.0.tgz#ac58db548bcde75d66d7e244e73f56c034a4b3da"
 
-fast-stable-stringify@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/fast-stable-stringify/-/fast-stable-stringify-0.1.1.tgz#ce758dce1cb40fb2bf0c8aef4f93e792d195b491"
-
-key-maker@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/key-maker/-/key-maker-1.0.1.tgz#eae32ab5862b6433a62ec4bd9eb3e1492b794e3a"
-  dependencies:
-    aguid "^2.0.0"
-    fast-stable-stringify "^0.1.1"
-
-uuid@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.1.tgz#6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1"
+rusha@0.8.6:
+  version "0.8.6"
+  resolved "https://registry.yarnpkg.com/rusha/-/rusha-0.8.6.tgz#b264ddaa4d49a1d67300061858ba9358c4adca14"
